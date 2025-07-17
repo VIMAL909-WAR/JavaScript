@@ -39,6 +39,48 @@ let myFunction = function(){
 }
 
 // all non-primitive data type's return type is object but in function return type is function 
+console.log(typeof books);
+console.log(typeof person);
+console.log(typeof myFunction);
+
+/*____________________________________________________________________________________________*/
+
+// there are mainly two types of memory allocation in javascript
+
+// 1) Stack memory allocation
+// 2) Heap memory 
+
+// primitive data types are stored in stack memory allocation
+// non-primitive data types are stored in heap memory allocation
+
+// in stack memory allocation, memory is allocated for primitive data types and the value is copied to the stack memory allocation
+// in heap memory allocation, memory is allocated for non-primitive data types and the reference is copied to the stack memory allocation
+
+/*
+let name1 = "John";
+let name2 = name1;
+name2 = "sofia" ;
+
+console.log(name1);
+console.log(name2);
+*/
+
+// this is example of stack memory allocation
 
 
-// https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// in heap memory 
+
+let user1 = {
+    name : "John",
+    age : 20
+};
+
+let user2 = user1;
+user2.name = "sofia";
+
+console.log(user2.name);
+console.log(user1.name);
+
+// this is example of heap memory allocation
