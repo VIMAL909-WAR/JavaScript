@@ -1,5 +1,5 @@
-let s1 = '                  Jay Swaminarayan                    ';
-
+// let s1 = '                  Jay Swaminarayan                    ';
+/*
 console.log(s1); // Output:                  Jay Swaminarayan
 console.log(s1.length); // Output: 32
 console.log(s1.trim ()); // Output: Jay Swaminarayan
@@ -21,4 +21,12 @@ console.log(s1.repeat(3)); // Output: Jay SwaminarayanJay SwaminarayanJay Swamin
 console.log(s1.trim()); // Output: Jay Swaminarayan
 console.log(s1.trimStart()); // Output: Jay Swaminarayan
 console.log(s1.trimEnd()); // Output: Jay Swaminarayan
+
+*/
+
+let name = "Vimal" ;
+let age = 20;
+
+console.log(`My name is ${name} and my age is ${age} `);
+console.log();
 
